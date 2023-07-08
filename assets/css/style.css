@@ -177,7 +177,8 @@ a:hover{
   gap: 8px;
 }
 .sales-summery-main {
-  background: #fff7f7;
+  /* background: #fff7f7; */
+  background: #ECF0F5;
 }
 select{
   outline: none;
@@ -192,7 +193,7 @@ select{
   border-radius: 3px;
   border: 1px solid #a89999;
   font-size: 14px;
-  background: #EAF3FF;
+  /* background: #EAF3FF; */
   box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
 }
 

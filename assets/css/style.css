@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, span, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+}
+p a{
+  background: transparent !important;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display: block;
+}
+textarea{
+	outline:none !important;
+}
+
+audio,
+canvas,
+video {
+   display: inline-block;
+}
+a{
+  outline: none !important;
+}
+audio:not([controls]) {
+   display: none;
+   height: 0;
+}
+
+[hidden] { display: none; }
+
+code, kbd, pre, samp {
+   font-family: monospace, serif;
+   font-size: 1em;
+}
+
+pre {
+   white-space: pre;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+
+ins {
+   background-color: #ff9;
+   color: #000;
+   text-decoration: none;
+}
+
+mark {
+   background-color: #A7F4F6;
+   color: #555;
+}
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+   border-bottom: 1px dotted;
+   cursor: help;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+button{
+  outline: none !important;
+}
+input
+{
+    outline:none !important;
+}
+
+textarea{
+  outline: none !important;
+}
+/******************************** End default css*******************************************/
+
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  padding:0;
+}
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.full_wrapper {
+	max-width: 500px;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.pxy{
+  padding: 10px 15px;
+}
+.px10{
+  padding: 10px;
+}
+
+/*****======== start summery area css ==========*****/
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: #3b5998; */
+  background: linear-gradient(270deg,#004e8c,#0078d4);
+ 
+}
+.bonik-logo {
+  text-align: center;
+}
+.bonik-logo h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.1;
+  display: block;
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+.bonik-logo h4 {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.1;
+  font-weight: 500;
+}
+.mobile-menu i,
+.user-profile i {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sales-summery-main-inner-content {
+  margin-bottom: 10px;
+}
+.summery-input {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.sales-summery-main {
+  background: #fff7f7;
+}
+select{
+  outline: none;
+}
+.single-summery > input,
+.single-summery > select {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  color: #000;
+  border-radius: 3px;
+  border: 1px solid #a89999;
+  font-size: 14px;
+  background: #EAF3FF;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+
+
+.summery-title > h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block;
+  /* background: rgba(29, 191, 115); */
+  /* background: linear-gradient(to right, #fdbb2d, #1DBF73); */
+  /* background: linear-gradient(to right,  #24B43B, #57D163); */
+  background: linear-gradient(270deg, #57D163, #24B43B );
+  padding: 5px 15px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  color: #fff;
+}
+.single-summery > label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.start-time-range-area{
+  padding-top: 0px;
+  background: #ddd;
+  margin-bottom: 20px;
+}
+.time-range-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}

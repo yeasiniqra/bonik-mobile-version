@@ -141,11 +141,21 @@ a:hover{
   align-items: center;
   /* background: #3b5998; */
   background: linear-gradient(270deg,#004e8c,#0078d4);
- 
+  border-radius: 0px 0px 10px 10px;
+  padding-bottom: 30px;
 }
 .bonik-logo {
   text-align: center;
 }
+.user-profile{
+  text-align: center;
+}
+.user-profile h5 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+
 .bonik-logo h2 {
   font-size: 20px;
   text-transform: uppercase;
@@ -179,6 +189,10 @@ a:hover{
 .sales-summery-main {
   /* background: #fff7f7; */
   background: #ECF0F5;
+  border-radius: 30px 30px 0px 0px;
+  position: relative;
+  z-index: 9;
+  top: -24px;
 }
 select{
   outline: none;
@@ -219,31 +233,43 @@ select{
   color: #000000;
   font-family: 'Space Grotesk', sans-serif;
 }
-.start-time-range-area{
+.start-time-range-area {
   padding-top: 0px;
   background: #C9DAFF;
-  margin-bottom: 62px;
+  margin-bottom: 63px;
+  border-radius: 0px 0px 30px 30px;
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  max-width: 480px;
+  width: 100%;
 }
 .time-range-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+.ex-margin-bottom {
+  margin-bottom: 90px;
+}
 
 .footer-menu-area {
   position: fixed;
   bottom: 0;
   z-index: 9;
+  max-width: 500px;
+  width: 100%;
 }
 
 .footer-menu {
   /* background: #fff; */
   padding: 10px 3px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 0px 0px 25px 25px;
   border: 1px solid #ddd;
   background: linear-gradient(270deg, #0078d4, #004e8c);
   /* background: linear-gradient(270deg, #57D163, #24B43B ); */
+  padding-top: 40px;
 }
 
 .footer-menu > ul {
@@ -275,7 +301,7 @@ select{
 
 .footer-menu > ul > li:hover a i {
   /* transition: 0.5s; */
-  bottom: 7px;
+  bottom: 7.5px;
   color: #000;
 }
 .footer-menu > ul > li a::after {
@@ -283,10 +309,10 @@ select{
   content: "";
   transition: 0.5s;
   border: 3px solid #ddd;
-  width: 30px;
+  width: 34px;
   text-align: center;
-  height: 30px;
-  line-height: 30px;
+  height: 33px;
+  line-height: 33px;
   border-radius: 50px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
   top: -20px;

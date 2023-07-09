@@ -5,6 +5,7 @@ body{
   font-size: 18px;
   box-sizing: border-box;
   font-family: 'Space Grotesk', sans-serif;
+  background: #ECF0F5 !important;
 }
 
 html, body, div, span, object, iframe,

@@ -1,34 +1,78 @@
-@media only screen and (min-width: 1921px) and (max-width: 4800px) {}
-@media only screen and (min-width: 1440px) and (max-width: 1599px) {}
-@media only screen and (min-width: 1280px) and (max-width: 1439px) {}
-@media only screen and (min-width: 1024px) and (max-width: 1279px){}
-
-
-@media all and (max-width:1199px){
-	
-}
-@media all and (max-width:1140px){
-	
-}
-
-@media all and (max-width:991px){
-
-}
-
-@media all and (max-width:767px){
-	
-}
 
 @media all and (max-width:575px){
-	
+    .bonik-logo h2 {
+        font-size: 16px;
+        padding-bottom: 2px;
+    }
+    .bonik-logo h4 {
+        font-size: 14px;
+    }
+	.start-time-range-area {
+        max-width: 95%;
+        width: 95%;
+        left: 0;
+    }
+    .footer-menu-area {
+        max-width: 100%;
+    }
+    .footer-menu > ul > li a {
+        font-size: 13px;
+    }
+    .footer-menu > ul > li {
+        margin: 0px 8.5px;
+    }
+    .single-summery > input, .single-summery > select {
+        font-size: 11px;
+    }
+    .single-summery > label {
+        font-size: 12px;
+    }
+    .summery-input {
+        gap: 5px;
+    }
+    .summery-title > h2 {
+        font-size: 12px;
+    }
+    .footer-menu > ul > li a::after {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+
+
 }
 
 @media all and (max-width:413px){
-
+    .footer-menu > ul > li {
+        margin: 0px 6.5px;
+    }
+    .footer-menu > ul > li a {
+        font-size: 12px;
+    }
+    .start-time-range-area {
+        margin-bottom: 60px;
+    }
 }
 
 @media all and (max-width:374px){
-
+    .summery-input {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-menu > ul > li {
+        margin: 0px 4.5px;
+    }
+    .footer-menu > ul > li a {
+        font-size: 11px;
+    }
+    .footer-menu > ul > li a::after {
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+    }
+    .footer-menu > ul > li:hover a i {
+        bottom: 9.5px;
+    }
 }
 
 

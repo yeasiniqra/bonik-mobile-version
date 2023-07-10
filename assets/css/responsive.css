@@ -24,7 +24,13 @@
     .single-summery > input, .single-summery > select {
         font-size: 11px;
     }
+    .single-summery span {
+        font-size: 11px;
+    }
     .single-summery > label {
+        font-size: 12px;
+    }
+    .single-summery h6 {
         font-size: 12px;
     }
     .summery-input {

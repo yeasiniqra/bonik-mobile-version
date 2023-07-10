@@ -7,6 +7,13 @@ body{
   font-family: 'Space Grotesk', sans-serif;
   background: #ECF0F5 !important;
 }
+:root {
+  --primary-bg: linear-gradient(270deg,#004e8c,#0078d4);
+  --primary-bg-reverse: linear-gradient(270deg, #0078d4, #004e8c);
+  --primary-green-bg: linear-gradient(270deg, #57D163, #24B43B );
+  --primary-text-color : #000;
+  --font-family-primary : 'Space Grotesk', sans-serif;
+}
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -141,7 +148,8 @@ a:hover{
   justify-content: space-between;
   align-items: center;
   /* background: #3b5998; */
-  background: linear-gradient(270deg,#004e8c,#0078d4);
+  /* background: linear-gradient(270deg,#004e8c,#0078d4); */
+  background: var(--primary-bg);
   border-radius: 0px 0px 10px 10px;
 }
 .bonik-logo {
@@ -199,12 +207,28 @@ select{
   box-sizing: border-box;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
-  color: #000;
+  color: var(--primary-text-color);
   border-radius: 3px;
   border: 1px solid #a89999;
   font-size: 14px;
   /* background: #EAF3FF; */
   box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+
+.single-summery span {
+  width: 100%;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  border-radius: 3px;
+  border: 1px solid #a89999;
+  font-size: 14px;
+  background: #fff;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  height: 22px;
+  display: block;
+  padding: 0px 2px;
+  box-sizing: border-box;
 }
 
 
@@ -213,20 +237,18 @@ select{
   text-transform: uppercase;
   font-size: 14px;
   display: inline-block;
-  /* background: rgba(29, 191, 115); */
-  /* background: linear-gradient(to right, #fdbb2d, #1DBF73); */
-  /* background: linear-gradient(to right,  #24B43B, #57D163); */
-  background: linear-gradient(270deg, #57D163, #24B43B );
+  /* background: linear-gradient(270deg, #57D163, #24B43B ); */
+  background: var(--primary-green-bg);
   padding: 5px 15px;
   margin-bottom: 5px;
   border-radius: 3px;
   color: #fff;
 }
-.single-summery > label {
+.single-summery h6 {
   display: block;
   font-size: 14px;
   font-weight: 600;
-  color: #000000;
+  color: var(--primary-text-color);
   font-family: 'Space Grotesk', sans-serif;
 }
 .start-time-range-area {
@@ -256,6 +278,7 @@ select{
   z-index: 9;
   max-width: 500px;
   width: 100%;
+  background: #ECF0F5;
 }
 
 .footer-menu {
@@ -264,8 +287,8 @@ select{
   box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
   border-radius: 0px 0px 25px 25px;
   border: 1px solid #ddd;
-  background: linear-gradient(270deg, #0078d4, #004e8c);
-  /* background: linear-gradient(270deg, #57D163, #24B43B ); */
+  /* background: linear-gradient(270deg, #0078d4, #004e8c); */
+  background: var(--primary-bg-reverse);
   padding-top: 40px;
 }
 
@@ -323,4 +346,16 @@ select{
   transition: 0.5s;
   visibility: visible;
   opacity: 1;
+}
+
+
+
+/*================= other page = salse page css =================*/
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+.overflow-x-auto.px10 {
+  padding-top: 0px;
 }

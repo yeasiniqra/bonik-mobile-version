@@ -150,7 +150,7 @@ a:hover{
   /* background: #3b5998; */
   /* background: linear-gradient(270deg,#004e8c,#0078d4); */
   background: var(--primary-bg);
-  border-radius: 0px 0px 10px 10px;
+  /* border-radius: 0px 0px 10px 10px; */
 }
 .bonik-logo {
   text-align: center;
@@ -197,6 +197,9 @@ a:hover{
 .sales-summery-main {
   /* background: #fff7f7; */
   background: #ECF0F5;
+  position: relative;
+  top: -6px;
+  border-radius: 10px 10px 0px 0px;
 }
 select{
   outline: none;
@@ -352,10 +355,20 @@ select{
 
 /*================= other page = salse page css =================*/
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid #a89999;
   border-collapse: collapse;
-  width: 100%;
+  font-size: 14px;
+  color: var(--primary-text-color);
+  padding: 0px 5px;
+  text-align: end;
 }
-.overflow-x-auto.px10 {
+.sales-summery-table.px10 {
   padding-top: 0px;
+}
+.sales-summery-table tr td:first-child, 
+.sales-summery-table tr th:first-child {
+  text-align: start;
+}
+.sales-summery-table tr {
+  height: 18px;
 }

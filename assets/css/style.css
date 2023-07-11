@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-body{
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  box-sizing: border-box;
-  font-family: 'Space Grotesk', sans-serif;
-  background: #ECF0F5 !important;
-}
+
 :root {
   --primary-bg: linear-gradient(270deg,#004e8c,#0078d4);
   --primary-bg-reverse: linear-gradient(270deg, #0078d4, #004e8c);
   --primary-green-bg: linear-gradient(270deg, #57D163, #24B43B );
   --primary-text-color : #000;
   --font-family-primary : 'Space Grotesk', sans-serif;
+  --body-bg : #ECF0F5;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+  background: var(--body-bg)!important;
 }
 
 html, body, div, span, object, iframe,
@@ -141,6 +143,9 @@ a:hover{
 .px10{
   padding: 10px;
 }
+.flex{
+  display: flex;
+}
 
 /*****======== start summery area css ==========*****/
 .header-area {
@@ -151,6 +156,7 @@ a:hover{
   /* background: linear-gradient(270deg,#004e8c,#0078d4); */
   background: var(--primary-bg);
   /* border-radius: 0px 0px 10px 10px; */
+  padding-top: 5px;
 }
 .bonik-logo {
   text-align: center;
@@ -170,7 +176,7 @@ a:hover{
   color: #fff;
   line-height: 1.1;
   display: block;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   font-weight: 700;
 }
 .bonik-logo h4 {
@@ -178,6 +184,7 @@ a:hover{
   color: #fff;
   line-height: 1.1;
   font-weight: 500;
+  padding-bottom: 3px;
 }
 .mobile-menu i,
 .user-profile i {
@@ -196,10 +203,10 @@ a:hover{
 }
 .sales-summery-main {
   /* background: #fff7f7; */
-  background: #ECF0F5;
+  background: var(--body-bg);
   position: relative;
   top: -6px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 11px 11px 0px 0px;
 }
 select{
   outline: none;
@@ -257,7 +264,7 @@ select{
 .start-time-range-area {
   padding-top: 0px;
   background: #C9DAFF;
-  margin-bottom: 63px;
+  margin-bottom: 58px;
   border-radius: 0px 0px 30px 30px;
   position: fixed;
   z-index: 99;
@@ -281,7 +288,7 @@ select{
   z-index: 9;
   max-width: 500px;
   width: 100%;
-  background: #ECF0F5;
+  background: var(--body-bg);
 }
 
 .footer-menu {
@@ -293,6 +300,7 @@ select{
   /* background: linear-gradient(270deg, #0078d4, #004e8c); */
   background: var(--primary-bg-reverse);
   padding-top: 40px;
+  padding-bottom: 5px;
 }
 
 .footer-menu > ul {
@@ -364,11 +372,44 @@ table, th, td {
 }
 .sales-summery-table.px10 {
   padding-top: 0px;
+  margin-bottom: 175px;
 }
+
 .sales-summery-table tr td:first-child, 
 .sales-summery-table tr th:first-child {
   text-align: start;
 }
 .sales-summery-table tr {
   height: 18px;
+}
+
+/* tab */
+.salse-tab-main ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.salse-tab-main ul li a {
+  background: var(--primary-green-bg);
+  display: block;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: center;
+  transition: 0.5s;
+}
+.salse-tab-main ul li:hover a {
+  transition: 0.5s;
+  background: linear-gradient(270deg, #24B43B, #57D163 );
+  color: #000;
+}
+.salse-tab-main {
+  position: fixed;
+  bottom: 110px;
+  max-width: 500px;
+  width: 100%;
+  background: var(--body-bg);
+  padding-bottom: 5px;
 }

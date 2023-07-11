@@ -11,6 +11,7 @@
         max-width: 95%;
         width: 95%;
         left: 0;
+        margin-bottom: 55px;
     }
     .footer-menu-area {
         max-width: 100%;
@@ -57,7 +58,7 @@
         font-size: 12px;
     }
     .start-time-range-area {
-        margin-bottom: 60px;
+        margin-bottom: 53px;
     }
 }
 
@@ -78,6 +79,9 @@
     }
     .footer-menu > ul > li:hover a i {
         bottom: 9.5px;
+    }
+    .start-time-range-area {
+        margin-bottom: 49px;
     }
 }
 

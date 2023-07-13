@@ -335,6 +335,12 @@ select{
   bottom: 7.5px;
   color: #000;
 }
+.footer-menu > ul > li.nav-link.active a i {
+  /* transition: 0.5s; */
+  bottom: 7.5px;
+  color: #000;
+}
+
 .footer-menu > ul > li a::after {
   position: absolute;
   content: "";
@@ -354,6 +360,11 @@ select{
   visibility: hidden;
 }
 .footer-menu > ul > li:hover a::after  {
+  transition: 0.5s;
+  visibility: visible;
+  opacity: 1;
+}
+.footer-menu > ul > li.nav-link.active a::after  {
   transition: 0.5s;
   visibility: visible;
   opacity: 1;

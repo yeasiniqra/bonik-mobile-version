@@ -1,14 +1,14 @@
 // Here are javascript code active menu by click
-// const links = document.querySelectorAll(".nav-link");
+const links = document.querySelectorAll(".nav-link");
 
-// links.forEach((link)=> {
-//     link.addEventListener("click", function(){
-//         links.forEach((e)=> {
-//         	e.classList.remove('active')
-//         })
-//         this.classList.add('active')
-//     })
-// })
+links.forEach((link)=> {
+    link.addEventListener("click", function(){
+        links.forEach((e)=> {
+        	e.classList.remove('active')
+        })
+        this.classList.add('active')
+    })
+})
 
 
 document.getElementById("defaultOpen").click();

@@ -282,6 +282,26 @@ select{
   margin-bottom: 110px;
 }
 
+.salse-graph-area {
+  margin-top: -20px;
+}
+.bar-graph,
+.multi-line-graph {
+  text-align: center;
+}
+.sal-heading {
+  text-align: center;
+  background: var(--primary-green-bg);
+  display: inline-block;
+  padding: 6px 38px;
+  color: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+
 .footer-menu-area {
   position: fixed;
   bottom: 0;

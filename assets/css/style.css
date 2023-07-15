@@ -239,6 +239,7 @@ select{
   display: block;
   padding: 0px 2px;
   box-sizing: border-box;
+  line-break: anywhere;
 }
 
 
@@ -300,14 +301,16 @@ select{
   overflow: hidden;
   margin-bottom: 5px;
   margin-top: 10px;
+  font-size: 14px;
 }
 .box {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   background: green;
   border-radius: 5px;
   line-height: 16px;
   margin: 0 auto;
+  margin-right: 5px;
 }
 .bar2 .box{
   background: red;
@@ -323,6 +326,9 @@ select{
 .bar1 {
   margin: 10px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  margin-right: 2px;
 }
 
 

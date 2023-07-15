@@ -301,6 +301,29 @@ select{
   margin-bottom: 5px;
   margin-top: 10px;
 }
+.box {
+  width: 18px;
+  height: 18px;
+  background: green;
+  border-radius: 5px;
+  line-height: 16px;
+  margin: 0 auto;
+}
+.bar2 .box{
+  background: red;
+}
+.bar3 .box{
+  background: blue;
+}
+.bar1 span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000;
+}
+.bar1 {
+  margin: 10px;
+  text-align: center;
+}
 
 
 .footer-menu-area {

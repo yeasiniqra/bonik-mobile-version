@@ -14,10 +14,6 @@ new Chart("myChart1", {
   },
   options: {
     legend: {display: false},
-    // title: {
-    //   display: true,
-    //   text: "Sales Bar Graph"
-    // }
   }
 });
 
@@ -53,9 +49,5 @@ new Chart("myChart2", {
   },
   options: {
     legend: {display: false},
-    // title: {
-    //     display: true,
-    //     text: "Sales Line Graph"
-    //   }
   }
 });

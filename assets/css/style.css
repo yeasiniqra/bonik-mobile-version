@@ -55,6 +55,7 @@ video {
 a{
   outline: none !important;
 }
+
 audio:not([controls]) {
    display: none;
    height: 0;
@@ -63,7 +64,7 @@ audio:not([controls]) {
 [hidden] { display: none; }
 
 code, kbd, pre, samp {
-   font-family: monospace, serif;
+   font-family: var(--font-family-primary);
    font-size: 1em;
 }
 
@@ -108,11 +109,10 @@ input
 {
     outline:none !important;
 }
-
 textarea{
   outline: none !important;
 }
-/******************************** End default css*******************************************/
+/******* End default css *************/
 
 h1,h2,h3,h4,h5,h6,p{
   margin:0;
@@ -200,6 +200,9 @@ a:hover{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
+}
+.purchase-summery-input{
+  grid-template-columns: repeat(3, 1fr);
 }
 .sales-summery-main {
   /* background: #fff7f7; */

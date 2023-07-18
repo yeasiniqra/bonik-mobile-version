@@ -10,7 +10,7 @@ links.forEach((link)=> {
     })
 })
 
-
+// tab js 
 document.getElementById("defaultOpen").click();
 function tabOpener(evt, kat) {
   var i, tabcontent, tablinks;
@@ -31,8 +31,8 @@ function tabOpener(evt, kat) {
   document.getElementById(kat).style.display = "block";
   evt.currentTarget.className += " active";
 
-}
 
+}
 
 
 

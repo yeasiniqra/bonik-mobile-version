@@ -498,6 +498,7 @@ table, th, td {
   border: none;
   font-family: var(--font-family-primary);
   cursor: pointer;
+  text-transform: capitalize;
 }
 .niiceeTabBtn button:hover,
 .niiceeTabBtn button.active {

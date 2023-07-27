@@ -60,6 +60,12 @@
         width: 97%;
         left: 6px;
     }
+    .niiceeTabBtn.expense-niiceeTabBtn button {
+        padding: 5px 0px;
+    }
+    table, th, td {
+        font-size: 12px;
+    }
 
 }
 
@@ -84,7 +90,7 @@
         bottom: 104px;
     }
     table, th, td {
-        font-size: 12px;
+        font-size: 11px;
     }
     .footer-menu > ul > li.nav-link.active a i {
         bottom: 7px;
@@ -117,6 +123,12 @@
     }
     table, th, td {
         font-size: 10px;
+    }
+    .niiceeTabBtn.expense-niiceeTabBtn button {
+        font-size: 11px;
+    }
+    .single-summery h6 {
+        font-size: 11px;
     }
 }
 

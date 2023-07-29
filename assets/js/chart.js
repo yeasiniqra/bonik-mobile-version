@@ -30,6 +30,7 @@ const formattedDate = date.toLocaleDateString('en-US', {
   day: 'numeric'
 });
 
+
 const xValuesLine = [
   formattedDate,
   formattedDate, 
